@@ -1,0 +1,26 @@
+{
+	"name"        : "ngResolve",
+	"version"     : "0.0.5",
+	"authors"     : [
+		"Charminbear"
+	],
+	"description" : "A simple angular-module to deffer app-launch until on or several json-files are loaded.",
+	"main"        : "dist/ngResolve.js",
+	"keywords"    : [
+		"angular",
+		"json"
+	],
+	"license"     : "MIT",
+	"ignore"      : [
+		"**/.*",
+		"node_modules",
+		"demo",
+		"bower_components",
+		"src/bower_components",
+		"test",
+		"tests"
+	],
+	"dependencies": {
+		"angular": "~1.2.16"
+	}
+}

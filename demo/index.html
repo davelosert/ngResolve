@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+	<meta charset="UTF-8">
+	<title></title>
+</head>
+<body ng-cloak>
+	<h1>This is a simple demo</h1>
+	<div ng-controller="demoCtrl as demoCtrl">
+		<h3>Here we want our Config-Data:</h3>
+		<p>{{demoCtrl.welcomeMessage}}</p>
+		<p>Some other data: {{demoCtrl.anotherMessage}}</p>
+	</div>
+</body>
+
+<script src="bower_components/angular/angular.min.js"></script>
+<script src="ngResolver.src.js"></script>
+<script src="app.js"></script>
+</html>
